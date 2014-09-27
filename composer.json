@@ -41,10 +41,11 @@
     "license": "Apache-2.0",
     "name": "zetacomponents/translation-cache-tiein",
     "type": "library",
-        "require": {
-            "zetacomponents/base": "*"
-        },
-        "require-dev": {
-            "zetacomponents/unit-test": "*"
-        }
+    "require": {
+        "zetacomponents/translation": "~1.3",
+        "zetacomponents/cache": "~1.5"
+    },
+    "require-dev": {
+        "zetacomponents/unit-test": "*"
+    }
 }
